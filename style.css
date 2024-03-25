@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  margin: 26px 0;
+}
+header ul {
+  gap: 45px;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-decoration: none;
+  transition: 0.4s;
+}
+header ul li a:hover {
+  color: #06c279;
+}
+header .navbtn {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 14px 25px;
+  background: #06c279;
+  border-radius: 5px;
+  transition: 0.4s;
+  border: 1px solid transparent;
+  margin-left: 142px;
+}
+header .navbtn:hover {
+  color: #1b1b1b;
+  background: transparent;
+  border: 1px solid #06c279;
+}
+
+#banner {
+  background: #eefff9;
+}
+#banner .banner__text {
+  margin-top: 20px;
+}
+#banner .banner__text .bannerh1 {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 71px;
+  max-width: 526px;
+  color: #1b1b1b;
+}
+#banner .banner__text .bannerh1 span {
+  font-weight: 700;
+}
+#banner .banner__text .bannerp {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #717171;
+  max-width: 511px;
+  margin-top: 37px;
+  margin-bottom: 51px;
+}
+#banner .banner__text .bannerbtn {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 14px 25px;
+  background: #06c279;
+  border-radius: 5px;
+  transition: 0.4s;
+  border: 1px solid transparent;
+}
+#banner .banner__text .bannerbtn:hover {
+  color: #1b1b1b;
+  background: transparent;
+  border: 1px solid #06c279;
+}
+#banner .banner__text .bannerbtn .bannericon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #06c279;
+  background: #daf6eb;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+#banner .bannerplay {
+  margin-left: 20px;
+}
+#banner .bannerimg {
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */

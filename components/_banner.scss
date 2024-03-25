@@ -1,0 +1,49 @@
+@import "./veriable";
+#banner {
+  background: #eefff9;
+
+  .banner__text {
+    margin-top: 20px;
+    .bannerh1 {
+      font-size: 60px;
+      font-weight: 300;
+      line-height: 71px;
+      max-width: 526px;
+      color: $black;
+      span {
+        font-weight: 700;
+      }
+    }
+    .bannerp {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      color: $p;
+      max-width: 511px;
+      margin-top: 37px;
+      margin-bottom: 51px;
+    }
+    .bannerbtn {
+      @include btn;
+
+      .bannericon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        color: $primary;
+        background: #daf6eb;
+        text-align: center;
+        line-height: 20px;
+        font-size: 10px;
+        margin-bottom: 2px;
+        margin-right: 6px;
+      }
+    }
+  }
+  .bannerplay {
+    margin-left: 20px;
+  }
+  .bannerimg {
+    margin-top: 100px;
+  }
+}
